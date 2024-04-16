@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Lorena Britez</title>
+        <title>Lorena Brítez</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
         <nav>
             <ul>
-                <li>Acerca de mí</li>
-                <li>Habilidades</li>
-                <li>Experiencia</li>
-                <li>Proyecto</li>
-                <li>Contactos</li>
+                <a class="menu-item" href=#acerca-de-mi>Acerca de mí</a>
+                <a class="menu-item" href=#habilidades>Habilidades</a>
+                <a class="menu-item" href=#experiencia>Experiencia</a>
+                <a class="menu-item" href=#proyectos>Proyectos</a>
+                <a class="menu-item" href=#contacto> Contacto</a>
             </ul>
         </nav>
         <header>
-            <h1>Lorena Britez</h1>
-            <h2>Estudiante</h2>
+            <h1>Lorena Brítez</h1>
+            <h2 id="estudiante">Estudiante</h2>
         </header>
-        <section>
+        <section id="acerca-de-mi"> 
             <h2>Acerca de mí</h2>
             <p>Soy una estudiante de la UNI</p>
         </section>
-        <section>
+        <section id="habilidades">
             <h2>Habilidades</h2>
             <button>HTML</button>
             <button>CSS</button>
             <button>JavaScript</button>
             <button>Git</button>
-            <button>Metodologia agiles</button>
+            <button>Metodologia ágiles</button>
         </section>
-        <section>
+        <section id="experiencia">
             <h2><b>Experiencia</b></h2>
             <p><b>Empresa X</b> (2022-presente) <br> Desarrollador web junior</p>
             <p>Resposable del desarrollo y mantenimiento de la página web de la Empresa</p>
             <p><b>Empresa Y</b> (2020-2022) <br> Diseñador web</p>
-            <p>Responsable del diseño y mauqtación de la página web de la empresa</p>
+            <p>Responsable del diseño y maquetación de la página web de la empresa</p>
         </section>
-        <section> 
+        <section id="proyectos"> 
             <h2><b>Proyectos</b></h2>
             <p>Proyecto 1 -Descripción del proyecto 1</p>
             <p>Proyecto 2 -Descripción del proyecto 2</p>  
         
         </section>
-        <section>
-            <h2><b>Contacto</b></h2>
-            <p>Si tienes alguna pregunta o quieres contactarme, puedes hacerlo a través del siguiente formulario</p>
-            <div>
-                <input type="text" placeholder="Nombre" />
-                <input type="email" placeholder="Correo electronico" />
-                <textarea cols="50" rows="5" placeholder="Mensaje"></textarea>
-                <button>Enviar</button>
+        <section id="contacto">
+            <h2><b>Contacto</b></h2> 
+            <p>Si tienes alguna pregunta o quieres contactarme, puedes hacerlo a través del siguiente formulario:</p>
+            <div class="contact-inputs">
+                <input type="text" placeholder="Nombre" class="contact-input"/>
+                <input type="email" placeholder="Correo electronico" class="contact-input"/>
+                <textarea cols="50" rows="5" placeholder="Mensaje" class="contact-input"></textarea>
+                <button id="btn-contact">Enviar</button>
 
             </div>
-
-
-
         </section>
-            
-
         <footer>
-            <h3>Copyright 2024</h3>
+            <h3>Copyright &copy; 2024</h3>
         </footer>
     </body>
 </html>
