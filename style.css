@@ -1,0 +1,111 @@
+h1 {
+  color: white; 
+  margin-top: 0;
+}
+
+h2 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#estudiante{
+  color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body{
+  background: #f6f5f7; 
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+  padding-top: 70px;
+}
+  
+.menu-item{
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: inline-block;
+}
+
+.menu-item:hover {
+  background-color: #ddd;
+  transition: all 0.4s ease-in-out;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto; 
+}
+
+.contact-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  font-size: small;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+#btn-contact {
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  background-color: #333333;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  color: #fff;
+} 
